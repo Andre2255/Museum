@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Meteorite Museum</title>
+	<style>
+		body {
+			margin: 0;
+		}
+
+		canvas {
+			width: 100%;
+			height: 100%
+		}
+	</style>
+  <script type="module" crossorigin src="./assets/index-DMCXoEJM.js"></script>
+</head>
+<body style="margin: 0; height: 100vh; display: flex; justify-content: center; align-items: center; position: relative">
+	<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
+		<canvas id="bg" style="width: 100%; height: 100%;"></canvas>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.min.js"></script>
+	<script src="https://unpkg.com/three@0.126.0/examples/js/loaders/GLTFLoader.js"></script>
+	<script src="./libs/inflate.min.js"></script>
+	<script src="./libs/FBXLoader.js"></script>
+	<script src="./libs/Detector.js"></script>
+
+	<h1 style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: 1; color: white;">DEMO MUSEUM</h1>
+	<h1 style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); z-index: 1; color: white;">USE THE JOYSTICK TO MOVE</h1>
+
+</body>
+</html>
